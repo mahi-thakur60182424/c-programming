@@ -1,8 +1,8 @@
-#include<stdio.h>
+#includ<stdio.h>
 
 int main() {
     int n = 5; // Number of rows in Pascal's Triangle
-    int coef;  // To store coefficients for each position
+    int coef;  // To store coefficients for each possible
 
     for (int i = 0; i < n; i++) {
         // Print leading spaces
