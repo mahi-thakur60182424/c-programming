@@ -12,7 +12,7 @@ void printHollowDiamond(int n) {
             if (j == 1 || j == 2 * i - 1) {
                 printf("*"); // Print star at boundaries
             } else {
-                printf(" "); // Print space inside
+                printf(" "); // Print space inside +
             }
         }
         printf("\n");
