@@ -1,4 +1,4 @@
-#includ<stdio.h>
+#include<stdio.h>
 
 int main() {
     int n = 5; // Number of rows in Pascal's Triangle
