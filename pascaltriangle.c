@@ -1,6 +1,6 @@
 #include<stdio.h>
-
-int main() {
+int main()
+{
     int n = 5; // Number of rows in Pascal's Triangle
     int coef;  // To store coefficients for each possible
 
@@ -17,8 +17,13 @@ int main() {
             coef = coef * (i - j) / (j + 1); // Calculate next coefficient
         }
 
+
         printf("\n");
     }
 
+
     return 0;
+
+
+
 }
