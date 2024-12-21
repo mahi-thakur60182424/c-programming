@@ -1,4 +1,4 @@
-#include <stdio.h>
+#include<stdio.h>
 
 void divide(float *a, float *b, float *result) {
     if (*b != 0) {
