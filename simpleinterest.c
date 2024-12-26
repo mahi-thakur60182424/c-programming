@@ -1,10 +1,7 @@
 #include<stdio.h>
  int main()
  {
-
-
     
-
     float p;
     printf("enter a principle ");
     scanf("%f",&p);
@@ -17,8 +14,5 @@
      printf("simple interest is %f",p*r*t/100);
      return 0;
 
-
-
-     
 
  }
