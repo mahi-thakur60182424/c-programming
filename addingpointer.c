@@ -2,8 +2,10 @@
 
 void addArrays(int *arr1, int *arr2, int *result, int size) {
     for (int i = 0; i < size; i++) {
+        
         *(result + i) = *(arr1 + i) + *(arr2 + i); // Using pointer arithmetic
     }
+
 }
 
 int main() {
@@ -30,4 +32,5 @@ int main() {
     }
 
     // Add the arrays
-    addArrays(arr1, arr
+    addArrays(arr1, arr)
+}
