@@ -1,4 +1,4 @@
-#include <stdio.h>
+#include<stdio.h>
 
 void printSpiral(int rows, int cols, int matrix[rows][cols]) {
     int top = 0, bottom = rows - 1;
@@ -55,4 +55,5 @@ int main() {
     printSpiral(rows, cols, matrix);
 
     return 0;
+    
 }
